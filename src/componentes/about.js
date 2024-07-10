@@ -9,7 +9,7 @@ const about_me = (props) => {
       <SectionTag title='About me' theme = {props.theme}/>
       <div className='primary-about-sec'>
         <div className='about-img-container'>
-          <img src={about_pic} className={`primary-about-img ${props.theme}`}></img>
+          <img src={about_pic} className={`primary-about-img ${props.theme}`} alt='My pic'></img>
           </div>      
         <div className='about-content-container'>
           <h2 className='about-heading'>Curious about me? Here you have it:</h2>

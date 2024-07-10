@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import '../css/hero.css'
 import hero_pic from '../img/my photo.jpg'
 import dark_location_icon from '../img/dark location icon.png'
@@ -17,7 +18,7 @@ const hero = (props) => {
           <p className='hero-intro-para'>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.
             <br/><br/><br/>
             <div className="location-container">
-              <img className='location-icon' src={props.theme==='dark'?dark_location_icon:light_location_icon} alt="" />
+              <img className='location-icon' src={props.theme==='dark'?dark_location_icon:light_location_icon} alt="Location" />
               <p>Delhi , India </p>
             </div> 
             <br/>
@@ -28,15 +29,15 @@ const hero = (props) => {
           </p>
           <ul className='hero-link-list'>
             <li className='hero-link-list-item'>
-              <img className='hero-link_icon' src={props.theme==='dark'?dark_github_icon:light_github_icon} alt="" />
+              <Link to='https://github.com/Aqua110'><img className='hero-link_icon' src={props.theme==='dark'?dark_github_icon:light_github_icon} alt="Github" /></Link>
             </li>
             <li className='hero-link-list-item'>
-              <img className='hero-link_icon' src={props.theme==='dark'?dark_linkedin_icon:light_linkedin_icon} alt="" />              
+              <Link to='https://www.linkedin.com/in/aqdas-rehman-757666256'><img className='hero-link_icon' src={props.theme==='dark'?dark_linkedin_icon:light_linkedin_icon} alt="Linkedin" /></Link>              
             </li>
           </ul>
         </div>
         <div className='img-container'>
-          <img src={hero_pic} className={`hero-img ${props.theme}`}/>
+          <img src={hero_pic} className={`hero-img ${props.theme}`} alt='My pic'/>
         </div>      
     </div>
   )

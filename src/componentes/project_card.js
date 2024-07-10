@@ -2,12 +2,13 @@ import React from 'react'
 import '../css/common.css'
 import SectionTag from '../componentes/section_tag.js'
 import visit_icon from '../img/exit-top-right_82118.png';
+import { Link } from "react-router-dom";
 
 const project_card = (props) => {
   return (
     <div className={`project-card ${props.theme}`}>
         <div className={`project-thumbnail-container ${props.theme}`}>
-            <img className='project-thumbnail' src = {props.thumbnail}/>
+            <img className='project-thumbnail' src = {props.thumbnail} alt='thumbnail'/>
 
         </div>
         <div className='project-content-container'>
@@ -18,7 +19,7 @@ const project_card = (props) => {
                 <SectionTag title = 'Html'theme={props.theme}/>
                 <SectionTag title = 'CSS'theme={props.theme}/>
             </div>
-            <img className='visit-icon' src={visit_icon}/>
+            <Link to = 'https://aqua110.github.io/To-do-s-list'><img className='visit-icon' src={visit_icon} alt='visit the project' /></Link>
 
         </div>
       

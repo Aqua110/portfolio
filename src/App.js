@@ -1,11 +1,16 @@
 import { useState} from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
+import Home from './componentes/home'
 import Header from './componentes/header';
-import Hero from './componentes/hero';
 import About from './componentes/about';
-import Skills from './componentes/skills';
 import Project from './componentes/project';
 import Contact from './componentes/contact';
 import Footer from './componentes/footer';
+
 
 function App() {
 
@@ -21,16 +26,18 @@ function App() {
   }
   
   return (
-
-    <div className="App">
-      <Header theme={theme} toggle_theme ={toggle_theme}/>
-      <Hero theme={theme}/>
-      <About theme={theme}/>
-      <Skills theme={theme}/>
-      <Project theme={theme}/>
-      <Contact theme={theme}/>
-      <Footer theme={theme}/>      
-    </div>
+    <>
+      <Router basename='/portfolio'>     
+        <Header theme={theme} toggle_theme ={toggle_theme}/>
+        <Routes>
+          <Route exact path="/" element = {<Home theme={theme}/>} ></Route>          
+          <Route path="/about" element = {<About theme={theme}/>}></Route>
+          <Route path="/contact" element = {<Contact theme={theme}/>}></Route>
+          <Route path="/project" element = {<Project theme={theme}/>}></Route>
+        </Routes>
+        <Footer theme={theme}/>       
+      </Router> 
+    </>
   );
 }
 
