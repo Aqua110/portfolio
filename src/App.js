@@ -28,9 +28,7 @@ function App() {
   
   return (
     <>
-      <Router 
-      // {basename='/portfolio'}
-      >     
+      <Router basename='/portfolio'>     
       <Header theme={theme} toggle_theme ={toggle_theme}/>
         <Routes>
           <Route exact path="/" element = {<Home theme={theme}/>} ></Route>          
