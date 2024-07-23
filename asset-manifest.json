@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4f777c67.css",
-    "main.js": "/portfolio/static/js/main.5d07c359.js",
+    "main.js": "/portfolio/static/js/main.755700f0.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/tripify thumbnail.png": "/portfolio/static/media/tripify thumbnail.e8ef4c94fc96a1f4577b.png",
     "static/media/to dos list.png": "/portfolio/static/media/to dos list.eab1fc0bbbb4f307e718.png",
     "static/media/ms power point logo.png": "/portfolio/static/media/ms power point logo.81ca5ee8b451e8a7743d.png",
     "static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.jpg": "/portfolio/static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.53561df961e01e3ac7f0.jpg",
@@ -30,11 +31,11 @@
     "static/media/icon-javscript.svg": "/portfolio/static/media/icon-javscript.91f7288aa052e1ae4c94ea7946f3c3f5.svg",
     "index.html": "/portfolio/index.html",
     "main.4f777c67.css.map": "/portfolio/static/css/main.4f777c67.css.map",
-    "main.5d07c359.js.map": "/portfolio/static/js/main.5d07c359.js.map",
+    "main.755700f0.js.map": "/portfolio/static/js/main.755700f0.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f777c67.css",
-    "static/js/main.5d07c359.js"
+    "static/js/main.755700f0.js"
   ]
 }
