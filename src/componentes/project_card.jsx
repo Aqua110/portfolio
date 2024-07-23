@@ -19,7 +19,7 @@ const project_card = (props) => {
                 <SectionTag title = 'Html'theme={props.theme}/>
                 <SectionTag title = 'CSS'theme={props.theme}/>
             </div>
-            <Link to = 'https://aqua110.github.io/To-do-s-list'><img className='visit-icon' src={visit_icon} alt='visit the project' /></Link>
+            <Link to = {props.projectLink}><img className='visit-icon' src={visit_icon} alt='visit the project' /></Link>
 
         </div>
       
