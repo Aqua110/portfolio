@@ -14,6 +14,13 @@ import dark_linkedin_icon from '../img/dark linkedin icon.png'
 import light_linkedin_icon from '../img/light linkedin icon.png'
 
 const contact = ({theme}) => {
+
+
+  function submit (e){
+    e.preventDefault();
+    alert("Thank you for your massage. I will reply soon");
+  }
+
   return (
     <div className={`contact-body ${theme}`}>
       <SectionTag title = 'Get in touch' theme={theme}/>
@@ -40,7 +47,7 @@ const contact = ({theme}) => {
             </li>
           </ul>
         </div>
-        <form className='quarry-form'>
+        <form className='quarry-form' onSubmit={submit}>
           <div className='quarry-input-container'>
             <input className={`quarry-input ${theme}`} type='text' name='name' placeholder='Name*'/>
             <input className={`quarry-input ${theme}`} type='email' name='email' placeholder='E-mail*'/>

@@ -42,7 +42,7 @@ const Header = (props) => {
             <p className={`theme_text nav-list-item ${props.theme}`}>Switch theme</p>
             <img className='theme-icon' src={props.theme==='dark'?dark_theme_icon:light_theme_icon} alt='Switch Theme'></img>
           </li>
-          <li><button className={props.theme} id='resume-button'>Download CV</button></li>
+          <li><button className={props.theme} id='resume-button' onClick={()=> {alert("The CV is not available right now it will be soon")}}>Download CV</button></li>
         </ul>
       </div>
     </div>
