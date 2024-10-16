@@ -15,7 +15,7 @@ const hero = (props) => {
     <div className={`hero-body ${props.theme}`}>
         <div className='content-container'>
           <h2 className='hero-intro-heading'>Hi,I'm Aqdas👋</h2>
-          <p className='hero-intro-para'>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.
+          <p className='hero-intro-para'>I'm a budding web development and design professional based in Delhi. I specialize in creating interactive and user-friendly websites using HTML, CSS, JavaScript, and ReactJS. My skills also extend to logo, social media post, and poster designing. Passionate about blending technology with aesthetics, I am eager to learn from real-world experiences and make a mark in the tech and design world.
             <br/><br/><br/>
             <div className="location-container">
               <img className='location-icon' src={props.theme==='dark'?dark_location_icon:light_location_icon} alt="Location" />

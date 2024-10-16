@@ -18,12 +18,7 @@
 /* there is the css related to section_tag.js */
 
 .section-tag.dark{
-    font-size: large;
-    padding: .5vh 1.5vw;
     background-color: #374151;
-    margin: auto;
-    border-radius: 1.5vh;
-    margin-right: 1vw;
 }
 .section-tag{
     font-size: large;
@@ -55,11 +50,7 @@
 /* there is the css related to project_card.js */
 
 .project-card.dark{
-    width: 80vw;
-    margin-top: 4vh;
-    display: flex;
     background-color: #1F2937;
-    border-radius: 2vh;
     box-shadow: none;
 }
 
@@ -73,10 +64,7 @@
 }
 
 .project-thumbnail-container.dark{
-    width: 50%;
     background-color: #374151;
-    border-top-left-radius: 2vh;
-    border-bottom-left-radius: 2vh;
     
 }
 
@@ -124,13 +112,8 @@
 /* there is the css related to footer.js */
 
 .footer-body.dark{
-    display: flex;
-    padding: 2vh 2vw;
     background-color: var(--secondary-dark-bg-color);
     color: var(--primary-dark-text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-body{
@@ -138,7 +121,6 @@
     padding: 2vh 2vw;
     background-color: var(--primary-light-bg-color);
     color: var(--primary-light-text-color);
-    display: flex;
     align-items: center;
     justify-content: center;
 }

@@ -1,24 +1,7 @@
-:root {
-    --primary-dark-bg-color: #030712;
-    --primary-dark-text-color: #F9FAFB;
-
-    --primary-light-bg-color: #FFFFFF;
-    --primary-light-text-color: #4B5563;
-
-    --secondary-light-bg-color: #E5E7EB;
-    
-}
-*{
-    margin: 0;
-    padding: 0;
-}
 
 .hero-body.dark{
-    height: 50vh;
     background-color: var(--primary-dark-bg-color);
     color: var(--primary-dark-text-color);
-    padding: 15vh 10vw;
-    display: flex;
 }
 
 .hero-body{
@@ -84,8 +67,6 @@
 }
 
 .hero-img.dark{
-    height: 40vh;
-    margin-left: 10vw;
     border-right:.5vw solid var(--primary-dark-bg-color);
     border-bottom:.5vw solid var(--primary-dark-bg-color);
     box-shadow: 4vh 4vh 2px 0px #374151 ;

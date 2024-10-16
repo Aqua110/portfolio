@@ -1,29 +1,6 @@
-:root {
-    --primary-dark-bg-color: #030712;
-    --primary-dark-text-color: #F9FAFB;
-
-    --secondary-dark-bg-color: #111827;    
-    
-    --primary-light-bg-color: #FFFFFF;
-    --primary-light-text-color: #4B5563;
-
-    --secondary-light-bg-color: #E5E7EB;
-    
-  }
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .project-body.dark{
-    
-    padding: 10vh 10vw;
     background-color: var(--secondary-dark-bg-color);
     color: var(--primary-dark-text-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .project-body{
