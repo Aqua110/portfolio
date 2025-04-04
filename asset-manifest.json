@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4f777c67.css",
+    "main.css": "/portfolio/static/css/main.47cb0461.css",
     "main.js": "/portfolio/static/js/main.60e03e54.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tripify thumbnail.png": "/portfolio/static/media/tripify thumbnail.e8ef4c94fc96a1f4577b.png",
@@ -30,12 +30,12 @@
     "static/media/icon-react.svg": "/portfolio/static/media/icon-react.6111d51018ca73ce951c67bab538b746.svg",
     "static/media/icon-javscript.svg": "/portfolio/static/media/icon-javscript.91f7288aa052e1ae4c94ea7946f3c3f5.svg",
     "index.html": "/portfolio/index.html",
-    "main.4f777c67.css.map": "/portfolio/static/css/main.4f777c67.css.map",
+    "main.47cb0461.css.map": "/portfolio/static/css/main.47cb0461.css.map",
     "main.60e03e54.js.map": "/portfolio/static/js/main.60e03e54.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f777c67.css",
+    "static/css/main.47cb0461.css",
     "static/js/main.60e03e54.js"
   ]
 }
