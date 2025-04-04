@@ -4,6 +4,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import './index.css'
 import Home from './componentes/home'
 import Header from './componentes/header';
 import About from './componentes/about';
@@ -28,7 +29,7 @@ function App() {
   return (
     <>
       <Router basename='/portfolio'>     
-        <Header theme={theme} toggle_theme ={toggle_theme}/>
+      <Header theme={theme} toggle_theme ={toggle_theme}/>
         <Routes>
           <Route exact path="/" element = {<Home theme={theme}/>} ></Route>          
           <Route path="/about" element = {<About theme={theme}/>}></Route>

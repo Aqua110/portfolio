@@ -1,6 +1,7 @@
 import React from 'react'
+import { useState } from 'react';
 import { Link } from "react-router-dom";
-import SectionTag from '../componentes/section_tag.js'
+import SectionTag from '../componentes/section_tag'
 import '../css/contact.css'
 import dark_phone_icon from '../img/dark phone icon.png'
 import light_phone_icon from '../img/light phone icon.png'
@@ -13,7 +14,23 @@ import light_github_icon from '../img/light github icon.png'
 import dark_linkedin_icon from '../img/dark linkedin icon.png'
 import light_linkedin_icon from '../img/light linkedin icon.png'
 
-const contact = ({theme}) => {
+const Contact = ({theme}) => {
+
+  const [username,setusername] = useState("");
+  const [useremail,setuseremail] = useState("");
+  const [massage,setmassage] = useState("");
+
+
+  function submit (e){
+    e.preventDefault();
+    if(!username || !useremail){
+      alert("The Name and email field cannot be blank");
+    }
+    else{
+      alert("Thank you for your massage. I will reply soon");
+    }
+  }
+
   return (
     <div className={`contact-body ${theme}`}>
       <SectionTag title = 'Get in touch' theme={theme}/>
@@ -40,12 +57,12 @@ const contact = ({theme}) => {
             </li>
           </ul>
         </div>
-        <form className='quarry-form'>
+        <form className='quarry-form' onSubmit={submit}>
           <div className='quarry-input-container'>
-            <input className={`quarry-input ${theme}`} type='text' name='name' placeholder='Name*'/>
-            <input className={`quarry-input ${theme}`} type='email' name='email' placeholder='E-mail*'/>
+            <input className={`quarry-input ${theme}`} type='text' name='name' placeholder='Name*' value={username} onChange={(e) =>{setusername(e.target.value)}}/>
+            <input className={`quarry-input ${theme}`} type='email' name='email' placeholder='E-mail*' value={useremail} onChange={(e) =>{setuseremail(e.target.value)}}/>
           </div>
-          <textarea className={`quarry-textarea ${theme}`} name="massage" id="" cols="48" rows="10" placeholder="Massage"></textarea>
+          <textarea className={`quarry-textarea ${theme}`} name="massage" id="" cols="48" rows="10" placeholder="Massage" value={massage} onChange={(e)=> {setmassage(e.target.value)}}></textarea>
           <button id="send-btn" className= {theme}>Send</button>
         </form>
       </div>
@@ -53,4 +70,4 @@ const contact = ({theme}) => {
   )
 }
 
-export default contact
+export default Contact

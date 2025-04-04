@@ -16,4 +16,18 @@
 .project-heading{
     margin-top: 3vh;
     font-size: x-large;
+    text-align: center;
+}
+
+@media screen and (max-width: 998px){
+
+    .project-body{
+        padding: 8vh;        
+    }
+
+    .project-heading{
+        margin-top: 3vh;
+        width: 85vw;
+        font-size: x-large;
+    }
 }

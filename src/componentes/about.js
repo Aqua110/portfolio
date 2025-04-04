@@ -1,9 +1,9 @@
 import React from 'react'
-import SectionTag from '../componentes/section_tag.js'
+import SectionTag from './section_tag.js'
 import about_pic from '../img/WhatsApp Image 2024-06-18 at 16.08.50_31add375.jpg'
 import '../css/about.css'
 
-const about_me = (props) => {
+const About_me = (props) => {
   return (
     <div className={`about-body ${props.theme}`}>
       <SectionTag title='About me' theme = {props.theme}/>
@@ -14,19 +14,36 @@ const about_me = (props) => {
         <div className='about-content-container'>
           <h2 className='about-heading'>Curious about me? Here you have it:</h2>
           <p className='about-para'>
-            I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing  the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
-            <br/><br/>
-            
-            I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
-            <br/><br/>
+          Hello! I'm Aqdas Rehman, a budding professional with a passion for Web Development and Designing, currently based in Delhi. As part of my undergraduate journey pursuing a BCA degree at Asian School of Business, I am enthusiastic about honing my skills and making a mark in the tech and design world.
 
-            I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
-            <br/><br/>
+          <br /><br />
 
-            When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.
-            <br/><br/>
+          My primary focus lies in Web Development, where I explore the dynamic world of JavaScript to create interactive and user-friendly websites. Additionally, my creative flair extends to Logo Designing, Social Media Post Designing, and Poster Designing, allowing me to blend technology with aesthetics.
 
-            One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉
+          <br /><br />
+
+          I am currently part of the undergraduate program in Computer Applications (BCA) at Asian School of Business. This academic journey has provided me with a strong foundation in computer science and the skills needed for the ever-evolving field of web development.
+          <br /><br />
+
+          Key Skills:
+          <br />
+
+          <b>Web Development</b>: Proficient in HTML, CSS, and currently exploring the dynamic aspects with JavaScript.
+          <br />
+          <b>Logo Designing</b>: Crafting unique and memorable logos to represent brands effectively.
+          <br />
+          <b>Social Media Post Designing</b>: Creating engaging visuals tailored for social media platforms.
+          <br />
+          <b>Poster Designing</b>: Designing visually appealing posters for various purposes.
+          <br /><br />
+          As a fresher, I am eager to contribute my skills and learn from real-world experiences. I believe in the power of technology to transform ideas into digital solutions, and I am excited about the possibilities that lie ahead in the field of web development.
+
+          <br />
+
+          I'm open to collaborations, learning opportunities, and connecting with fellow enthusiasts. Feel free to reach out via aqdas.rehmanbca-2022@asb.edu.in to discuss anything related to web development or design. You can also find me on LinkedIn to stay updated on my latest projects and endeavors.
+          <br />
+
+          Looking forward to exploring the vast world of web development and design together!
           </p>
         </div>    
       </div>
@@ -34,4 +51,4 @@ const about_me = (props) => {
   )
 }
 
-export default about_me
+export default About_me

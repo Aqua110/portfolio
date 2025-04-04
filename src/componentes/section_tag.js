@@ -10,5 +10,3 @@ const section_tag = (props) => {
 }
 
 export default section_tag
-
-

@@ -15,27 +15,38 @@
     padding: 0;
 }
 
+html{
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
 /* there is the css related to section_tag.js */
 
-.section-tag.dark{
-    background-color: #374151;
+.section-tag-container{
+    margin-bottom: 3vh;
+    margin-right: 1.5vw;
 }
+
 .section-tag{
     font-size: large;
     padding: .5vh 1.5vw;
     background-color: var(--secondary-light-bg-color);
-    margin: auto;
     border-radius: 1.5vh;
-    margin-right: 1vw;
+}
+
+.section-tag.dark{
+    background-color: #374151;
 }
 
 /* there is the css related to skill_card.js */
 
 .skill-card{
+    width: 10vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    padding: 4vh 3vw;
+    margin: 4vh 0;
 }
 
 .skill-card-logo{
@@ -106,7 +117,6 @@
 
 .visit-icon{
     height: 3vh;
-    margin-top: 4vh;
 }
 
 /* there is the css related to footer.js */
@@ -117,6 +127,7 @@
 }
 
 .footer-body{
+    height: 8vh;
     display: flex;
     padding: 2vh 2vw;
     background-color: var(--primary-light-bg-color);
@@ -134,4 +145,62 @@
 .icon{
     height: 3vh;
     padding: 1vh;
+}
+
+
+@media screen and (max-width: 998px){
+
+   /* there is the css related to section_tag.js */
+   .section-tag{
+    padding: 1vh 8vw;
+    border-radius: 2vh;
+   }
+
+   /* there is the css related to project_card.js */
+
+.project-card{
+    width: 90vw;
+    flex-direction: column;
+}
+
+.project-thumbnail-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 2vh;
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 0;   
+}
+
+.project-thumbnail{
+    width: 80vw;
+    margin: 3vh 0;
+    border-radius: 2vh;
+}
+
+.project-content-container{
+    width: 80vw;
+    padding: 4vh 8vw;
+}
+
+.project-title{
+    font-size: xx-large;
+}
+
+.project-description{
+   width: 70vw;
+}
+
+.tech-tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* there is the css related to skill_card.js */
+
+.skill-card{
+    width : 30vw;
+}   
+
 }
