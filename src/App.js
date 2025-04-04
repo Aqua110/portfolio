@@ -7,7 +7,7 @@ import {
 import './index.css'
 import Home from './componentes/home'
 import Header from './componentes/header';
-import About from './componentes/about';
+import About from './componentes/about_me';
 import Project from './componentes/project';
 import Contact from './componentes/contact';
 import Footer from './componentes/footer';

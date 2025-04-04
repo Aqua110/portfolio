@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from './hero';
-import About from './about';
+import About from './about_me';
 import Skills from './skills';
-import Project from './project';
-import Contact from './contact';
+import Project from './project.jsx';
+import Contact from './contact.jsx';
 
 const home = (props) => {
   return (

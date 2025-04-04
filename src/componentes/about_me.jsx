@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTag from './section_tag.js'
+import SectionTag from './section_tag'
 import about_pic from '../img/WhatsApp Image 2024-06-18 at 16.08.50_31add375.jpg'
 import '../css/about.css'
 
