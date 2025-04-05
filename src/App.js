@@ -4,8 +4,8 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import './index.css'
-import Home from './componentes/home'
+import './index.css';
+import Home from './componentes/home';
 import Header from './componentes/header';
 import About from './componentes/about_me';
 import Project from './componentes/project';

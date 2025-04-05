@@ -8,6 +8,7 @@ import dark_menu_icon from '../img/dark menu icon.png'
 import light_menu_icon from '../img/light menu icon.png'
 import dark_close_icon from '../img/dark close icon.png'
 import light_close_icon from '../img/light close icon.png'
+import resume from '../assets/files/Aqdas Resume.pdf'
 
 
 const Header = (props) => {
@@ -42,7 +43,7 @@ const Header = (props) => {
             <p className={`theme_text nav-list-item ${props.theme}`}>Switch theme</p>
             <img className='theme-icon' src={props.theme==='dark'?dark_theme_icon:light_theme_icon} alt='Switch Theme'></img>
           </li>
-          <li><button className={props.theme} id='resume-button' onClick={()=> {alert("The CV is not available right now it will be soon")}}>Download CV</button></li>
+          <li><a href={resume} download="Aqdas's Resume"><button className={props.theme} id='resume-button' >Download CV</button></a></li>
         </ul>
       </div>
     </div>
