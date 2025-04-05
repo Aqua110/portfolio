@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47cb0461.css",
-    "main.js": "/portfolio/static/js/main.60e03e54.js",
+    "main.js": "/portfolio/static/js/main.daa08fac.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tripify thumbnail.png": "/portfolio/static/media/tripify thumbnail.e8ef4c94fc96a1f4577b.png",
     "static/media/to dos list.png": "/portfolio/static/media/to dos list.eab1fc0bbbb4f307e718.png",
+    "static/media/Aqdas Resume.pdf": "/portfolio/static/media/Aqdas Resume.4270aa49cd6629b5c465.pdf",
     "static/media/ms power point logo.png": "/portfolio/static/media/ms power point logo.81ca5ee8b451e8a7743d.png",
     "static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.jpg": "/portfolio/static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.53561df961e01e3ac7f0.jpg",
     "static/media/python logo.png": "/portfolio/static/media/python logo.0c7afd9d7ce9ec27880c.png",
@@ -31,11 +32,11 @@
     "static/media/icon-javscript.svg": "/portfolio/static/media/icon-javscript.91f7288aa052e1ae4c94ea7946f3c3f5.svg",
     "index.html": "/portfolio/index.html",
     "main.47cb0461.css.map": "/portfolio/static/css/main.47cb0461.css.map",
-    "main.60e03e54.js.map": "/portfolio/static/js/main.60e03e54.js.map",
+    "main.daa08fac.js.map": "/portfolio/static/js/main.daa08fac.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47cb0461.css",
-    "static/js/main.60e03e54.js"
+    "static/js/main.daa08fac.js"
   ]
 }
