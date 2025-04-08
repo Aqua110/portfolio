@@ -31,7 +31,7 @@ function App() {
       <Router basename='/portfolio'>     
       <Header theme={theme} toggle_theme ={toggle_theme}/>
         <Routes>
-          <Route exact path="/" element = {<Home theme={theme}/>} ></Route>          
+          <Route exact path="/portfolio" element = {<Home theme={theme}/>} ></Route>          
           <Route path="/about" element = {<About theme={theme}/>}></Route>
           <Route path="/contact" element = {<Contact theme={theme}/>}></Route>
           <Route path="/project" element = {<Project theme={theme}/>}></Route>
