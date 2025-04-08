@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d5838fae.css",
+    "main.js": "/portfolio/static/js/main.ce4624dd.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/tripify thumbnail.png": "/portfolio/static/media/tripify thumbnail.e8ef4c94fc96a1f4577b.png",
+    "static/media/to dos list.png": "/portfolio/static/media/to dos list.eab1fc0bbbb4f307e718.png",
+    "static/media/Aqdas Resume.pdf": "/portfolio/static/media/Aqdas Resume.4270aa49cd6629b5c465.pdf",
+    "static/media/ms power point logo.png": "/portfolio/static/media/ms power point logo.81ca5ee8b451e8a7743d.png",
+    "static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.jpg": "/portfolio/static/media/WhatsApp Image 2024-06-18 at 16.08.50_31add375.53561df961e01e3ac7f0.jpg",
+    "static/media/python logo.png": "/portfolio/static/media/python logo.0c7afd9d7ce9ec27880c.png",
+    "static/media/css logo.png": "/portfolio/static/media/css logo.015d4e7819fe71e19c25.png",
+    "static/media/ms excel logo.webp": "/portfolio/static/media/ms excel logo.9f7cefa46caa9f58540e.webp",
+    "static/media/c logo.png": "/portfolio/static/media/c logo.30e8acff157f8fa06702.png",
+    "static/media/jsx logo.png": "/portfolio/static/media/jsx logo.4cdb9c2137bb82650704.png",
+    "static/media/light location icon.png": "/portfolio/static/media/light location icon.e174e6c643fd42a0d744.png",
+    "static/media/dark location icon.png": "/portfolio/static/media/dark location icon.40d54fd3b3302425d06b.png",
+    "static/media/my photo.jpg": "/portfolio/static/media/my photo.72d87f29afe9dfbb7edc.jpg",
+    "static/media/c++ logo.png": "/portfolio/static/media/c++ logo.ef568ff7d31f9b0dfcb1.png",
+    "static/media/light phone icon.png": "/portfolio/static/media/light phone icon.fbbe771e79cf4a27cf89.png",
+    "static/media/dark phone icon.png": "/portfolio/static/media/dark phone icon.248e8851050bdde3d589.png",
+    "static/media/light github icon.png": "/portfolio/static/media/light github icon.44c84d2a984dcc832168.png",
+    "static/media/dark github icon.png": "/portfolio/static/media/dark github icon.f2c45771a823c8b6f56c.png",
+    "static/media/dark theme icon.png": "/portfolio/static/media/dark theme icon.66b072739d56f5169759.png",
+    "static/media/light mail icon.png": "/portfolio/static/media/light mail icon.848d12ecf52369ff5bd9.png",
+    "static/media/dark mail icon.png": "/portfolio/static/media/dark mail icon.55ff6ede6b22c4d42fea.png",
+    "static/media/light theme icon.png": "/portfolio/static/media/light theme icon.a2f87d26c9c624beda9b.png",
+    "static/media/dark linkedin icon.png": "/portfolio/static/media/dark linkedin icon.2337d5921d29bec670b9.png",
+    "static/media/light linkedin icon.png": "/portfolio/static/media/light linkedin icon.d0a4bd5175e91390852f.png",
+    "static/media/ms office logo.webp": "/portfolio/static/media/ms office logo.3f630f8a3f0999ca7e4d.webp",
+    "static/media/icon-react.svg": "/portfolio/static/media/icon-react.e24a04d53c79d4ff8b1bd4daf896a4e9.svg",
+    "static/media/icon-javscript.svg": "/portfolio/static/media/icon-javscript.aa15c9bc595797e2c06560b1a000aaae.svg",
+    "index.html": "/portfolio/index.html",
+    "main.d5838fae.css.map": "/portfolio/static/css/main.d5838fae.css.map",
+    "main.ce4624dd.js.map": "/portfolio/static/js/main.ce4624dd.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5838fae.css",
+    "static/js/main.ce4624dd.js"
+  ]
+}
